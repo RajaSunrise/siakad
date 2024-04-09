@@ -1,0 +1,11 @@
+@jwttoken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTA3NTk2MzgsInN1YiI6IjQifQ.rMuKIAN-0J2Mfw1D-N-rQMuwmFrTpISKIuowtil01C0
+
+###
+GET  http://127.0.0.1:8000/127.0.0.1:8000/api/v1/login/127.0.0.1:8000/api/v1/login/test-token
+Content-Type: application/json
+Authorization: Bearer {{jwttoken}}
+
+
+
+
+

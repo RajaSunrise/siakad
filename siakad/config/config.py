@@ -1,0 +1,20 @@
+from pathlib import Path
+
+
+PROJECT_NAME = "TEST AJA"
+
+SECRET_KEY = "VlZrIcENaNaJH9q/OrJdx4CCPgxlEUvBcnJUpSG4moc="
+
+ALGORITHM = "HS256"
+
+FIRST_SUPERUSER = "indra020204@gmail.com"
+
+FIRST_SUPERUSER_PASSWORD = "IndraAja123"
+
+USERS_OPEN_REGISTRATION = False
+
+API_V1_STR = "/api/v1"
+
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
+
+MEDIA_FOLDER = Path(__file__).parent / "media"

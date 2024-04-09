@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "siakad"
+version = "0.1.0"
+description = ""
+authors = ["RajaSunrise <rajasunsrise@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+sqlalchemy = "^2.0.28"
+socketify = "^0.0.27"
+pymysql = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
